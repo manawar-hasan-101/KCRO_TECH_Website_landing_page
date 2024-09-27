@@ -1,0 +1,224 @@
+@media screen and (max-width: 725px){
+  h3{
+    text-align: center;
+    font-size: 1.8rem;
+  }
+
+  nav{
+    margin-top: 32px;
+    ul{
+      display: none;
+    }
+  }
+
+  nav .fa-solid{
+    display: block;
+    font-size: 22px;
+  }
+
+  .hero_section{
+    flex-direction: column-reverse;
+    text-align: center;
+
+    .content{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .btn-container{
+      align-content: center;
+      margin-top: 1.6rem;
+      
+      button{
+        width: 150px;
+        padding: 14px;
+        font-size: 14px;
+      }
+      
+    }
+
+    h1{
+      font-size: 2.5rem;
+    }
+
+    .content{
+      p{
+        font-size: 1.6rem;
+        margin-top: 1rem;
+      }
+    }
+  }
+
+  .image_container img{
+    width: 40rem;
+    margin-top: -50px;
+  }
+
+  /* brand section */
+
+  .brand_section{
+    margin-block: 6rem;
+    h3{
+      text-align: center;
+    }
+
+    .brand_logos{
+      flex-direction: column;
+      height: 100%;
+      gap: 30px;
+    }
+  }
+  .brand_logos img:nth-child(1){
+    width: 200px;
+    margin-bottom: -15px;
+  }
+  .brand_logos img:nth-child(2){
+    width: 200px;
+  }
+
+  /* Features Section */
+
+  .feature_section{
+    flex-direction: column;
+    gap: 0;
+
+    
+  .content{
+    padding-inline: 2.5rem;
+    text-align: center;
+    margin-top: -1rem;
+
+    h2{
+      font-size: 3rem;
+      margin-block: 1rem;
+    }
+
+    p{
+      font-size: 1.6rem;
+      line-height: 2.2rem;
+    }
+
+    button{
+      width: 25rem;
+      padding: 14px;
+      margin-top: 1.5rem;
+      font-size: 1.4rem;
+    }
+  }
+  }
+  
+  .feature_section
+  .image_container img{
+    width: 35rem;
+    margin-top: -40px;
+  }
+
+.feature_section2{
+  flex-direction: column-reverse;
+
+  .content{
+    margin-top: 2rem;
+  }
+}
+
+/* Testimonial_section */
+.testimonial_section{
+
+  h3{
+    margin-top: -9rem;
+  }
+
+  h2{
+    font-size: 3rem;
+    margin-block: 1rem;
+    margin-bottom: -2rem;
+  }
+
+  .testimonials{
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8rem; 
+
+    .card{
+      width: 100%;
+      height: 200px;  
+      padding-bottom: 0;
+
+      h3{
+        font-size: 1.5rem;
+      }
+
+      .image_container{
+        top: -3%;
+      }
+
+
+      .image_container img{
+        border-radius: 50%;
+        width: 90px;
+      }
+
+      .white-dot {
+        width: 20px;
+        height: 20px;
+        top: -52px;
+        left: 58%;
+    }
+    }
+  }
+}
+
+/* Ready section */
+.ready-container{
+  display: flex;
+  justify-content: center;
+}
+
+.ready_section{
+  height: 100%;
+  width: 75%;
+  align-content: center;
+  padding-block: 2rem;
+  margin-top: -5rem;
+
+  h2{
+    margin-block: 0.5rem;
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 3rem;
+  }
+
+  button{
+    font-size: 1.2rem;
+    padding-block: 1.6rem;
+  }
+}
+
+/* Footer */
+
+footer{
+  flex-wrap: wrap;
+
+  .logo{
+    flex: 1;
+  }
+
+  .links{
+    flex:1;
+    margin-bottom: 1.5rem;
+    font-size: 1.6rem;
+  }
+}
+
+footer{
+  & .newsletter {
+      & .input_container {
+          button {
+              font-size: 1.6rem;
+          }
+      }
+  }
+}
+}
